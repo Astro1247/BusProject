@@ -2,7 +2,7 @@
 #include "Geo.h"
 
 
-char Geo::SearchByName(char name)
+double Geo::SearchByName(char name)
 {
 	// —огласно указанноум пользователем названию должен проводить поиск через HTTP запрос 
 	// ¬ GooGle API и возвращать координаты (Ўирота и долгота) в случае успешного поиска
